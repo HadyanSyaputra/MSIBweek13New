@@ -4,18 +4,16 @@ import BookForm from "../components/BookForm";
 
 const NewBookPage = () => (
   <Box
-    _hover={{
-      bgGradient: "linear(to-r, blue.400, blue.300)",
-    }}
     transition="background 0.3s ease"
-    bgGradient="linear(to-r, blue.500, blue.400)"
+    bgColor="gray.300"
     boxShadow="xl"
     borderRadius="md"
+    shadow="dark-lg"
     p={8}
     maxW="500px"
     mx="auto"
     mt={10}
-    color="white"
+    color="black"
     fontFamily="sans-serif"
   >
     <BookForm />

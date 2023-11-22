@@ -49,12 +49,12 @@ export default function BookDetails() {
 
   return (
     <Box
-      bgColor="blue.100"
+      bgColor="green.100"
       p="16"
       borderRadius="lg"
       boxShadow="lg"
       transition="0.3s"
-      _hover={{ transform: "scale(1.02)", bgColor: "blue.200" }}
+      _hover={{ transform: "scale(1.02)", bgColor: "green.200" }}
     >
       {isLoading ? (
         <Skeleton height="300px" my="6" />
@@ -67,7 +67,6 @@ export default function BookDetails() {
               borderRadius="md"
               boxShadow="md"
               transition="0.3s"
-              _hover={{ transform: "scale(1.1)" }}
             />
           </Box>
           <Box ml="8">

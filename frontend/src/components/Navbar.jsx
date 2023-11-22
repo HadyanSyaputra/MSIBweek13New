@@ -42,7 +42,7 @@ const Navbar = () => {
       justify="space-between"
       wrap="wrap"
       padding="1rem"
-      bg="blue.400"
+      bg="green.400"
       color="white"
     >
       <Link to="/">

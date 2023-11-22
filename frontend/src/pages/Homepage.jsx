@@ -20,7 +20,7 @@ export default function Homepage() {
       align="center"
       justify="center"
       p={8}
-      bgGradient="linear(to-r, blue.400, blue.200)"
+      bg="green.800"
       color="white"
       borderRadius="md"
       boxShadow="xl"
@@ -36,7 +36,7 @@ export default function Homepage() {
             borderRadius="md"
             boxShadow="md"
             p={4}
-            bg="blue.500"
+            bg="green.500"
             color="white"
             m={4}
           >

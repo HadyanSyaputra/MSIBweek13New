@@ -6,7 +6,7 @@ services:
     image: postgres
     restart: always
     environment:
-      POSTGRES_PASSWORD: admin
-      POSTGRES_DB: dbBuku
+      POSTGRES_PASSWORD: postgres
+      POSTGRES_DB: db_buku
     ports:
       - "5432:5432"
